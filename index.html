@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+    </head>
+    <body>
+        <header class="wrapper">
+            <nav>
+                <div class="nav-left">
+                    <div class="logo">
+                        <p>P</p>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Catelog</a></li>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Vendor</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <button class="btn btn-secondary">
+                        <iconify-icon icon="lucide:user"></iconify-icon>
+                        Sign in
+                    </button>
+                    <button class="btn btn-primary">
+                        <iconify-icon icon="ic:baseline-plus"></iconify-icon>
+                        Add Property
+                    </button>
+                </div>
+            </nav>
+            <main>
+                <div class="main-info">
+                    <h1>Easiest way to find <br />a perfect property</h1>
+                    <p>
+                        Utilize online estate platforms for the simplest path to
+                        discovering the ideal property, with tailored search
+                        filters and comprehensive listings at your fingertips.
+                    </p>
+                    <form>
+                        <div class="form-group">
+                            <label for="type">
+                                <iconify-icon icon="carbon:home"></iconify-icon>
+                            </label>
+                            <select name="type" id="type">
+                                <option value="rent">For Rent</option>
+                                <option value="sale">For Sale</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">
+                                <iconify-icon
+                                    icon="tabler:map-pin"
+                                ></iconify-icon>
+                            </label>
+                            <input
+                                type="text"
+                                id="location"
+                                placeholder="Location"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="property">
+                                <iconify-icon
+                                    icon="material-symbols-light:filter-none-outline-rounded"
+                                ></iconify-icon>
+                            </label>
+                            <select name="property" id="property">
+                                <option value="property">Property type</option>
+                                <option value="house">House</option>
+                                <option value="house-semi">
+                                    Semi-detacted
+                                </option>
+                                <option value="house-detached">Detached</option>
+                                <option value="appartment">Appartment</option>
+                                <option value="single-story">
+                                    Single story
+                                </option>
+                                <option value="single-story">Land</option>
+                                <option value="single-story">Commercial</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label for="price">
+                                    <iconify-icon icon="bi:coin"></iconify-icon>
+                                </label>
+                                <select name="price" id="price">
+                                    <option value="price">Price</option>
+                                    <option value="100k">100k</option>
+                                    <option value="200k">200k</option>
+                                    <option value="300k">300k</option>
+                                    <option value="400k">400k</option>
+                                    <option value="above">Above</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="btn-search" type="submit">
+                            <iconify-icon icon="pajamas:search"></iconify-icon>
+                        </button>
+                    </form>
+                </div>
+            </main>
+        </header>
+    </body>
+</html>
